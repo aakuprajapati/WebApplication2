@@ -2,7 +2,8 @@
   "dependencies": {
     "mssql1": {
       "type": "mssql.local",
-      "connectionId": "AppDbContext"
+      "connectionId": "DefaultConnection",
+      "secretStore": "LocalSecretsFile"
     }
   }
 }
